@@ -34,12 +34,12 @@
 */
 
 #if (ARDUINO >= 100)
-#include "Arduino.h"
+#include <Arduino.h>
 #else
 #include "WProgram.h"
 #endif
 
-#include "SparkFun_UHF_RFID_Reader.h"
+#include <SparkFun_UHF_RFID_Reader.h>
 
 RFID::RFID(void)
 {

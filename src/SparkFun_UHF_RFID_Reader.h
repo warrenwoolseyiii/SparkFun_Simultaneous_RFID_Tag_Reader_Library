@@ -15,7 +15,7 @@
   substantial portions of the Software.
 */
 
-#include "Arduino.h" //Needed for Stream
+#include <Arduino.h> //Needed for Stream
 
 #define MAX_MSG_SIZE 255
 
